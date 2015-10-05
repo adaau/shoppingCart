@@ -1,0 +1,32 @@
+body {
+	margin: 0 30px;
+}
+
+div.item-row div {
+	display: inline-block;
+	margin: 0 20px 0 0;
+}
+
+div.col1 {
+	width: 300px;
+	
+}
+
+div.col2 {
+	width: 200px;
+	
+}
+
+div.col3 {
+	width: 400px;
+	
+}
+
+div.col4 {
+	width: 300px;
+	
+}
+
+section {
+	margin-top: 50px;
+}

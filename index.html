@@ -8,13 +8,37 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="js/application.js"></script>
-
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
   </head>
   <body>
-    
+    <header>
+      <h1>Shopping Cart</h1>
+    </header>
+    <main id="shop-list">
+      <div class="item-row">
+        <div class="item-name col1"></div>
+        <div class="item-price col2"></div>
+        <div class="item-qty col3"></div>
+        <div class="item-total col4"></div>
+      </div>
+      <div class="item-row">
+        <div class="col1">
+          <input type="text" id="item-name-input">
+        </div>
+        <div class="col2">
+          <input type="text" id="item-price-input">
+        </div>
+        <div class="col3">
+          <button id="create-btn">Create</button>
+        </div>
+      </div>
+    </main>
+    <section>
+      <h2>Total Price:</h2>
+      <h2 id="total-price">$0.00</h2> 
+    </section>
   </body>
 </html>
